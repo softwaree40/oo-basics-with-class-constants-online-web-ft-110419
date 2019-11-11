@@ -4,12 +4,13 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brands
     BRANDS = []
-    
+  
    def initialize(brands)
     @brands = brands
     BRANDS << brands
+    unique_numbers = BRANDS.uniq
     #pp BRANDS
-  
+    unique_numbers
     #binding.pr
  end
 
