@@ -8,7 +8,7 @@ class Shoe
     @brands = brands
    
       binding.pry
-    end
+    
   end
 
   def cobble
