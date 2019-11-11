@@ -6,6 +6,8 @@ class Shoe
    
   def initialize(brands)
     @brands = brands
+    
+    
    
       binding.pry
     
