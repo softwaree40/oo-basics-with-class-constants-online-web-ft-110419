@@ -11,13 +11,12 @@ class Shoe
     BRANDS << brands
     #pp BRANDS
   
-    #binding.pry
-      
-    end
+    #binding.pr
+ end
 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-   return BRANDS.uniq 
+   BRANDS.uniq 
 end
