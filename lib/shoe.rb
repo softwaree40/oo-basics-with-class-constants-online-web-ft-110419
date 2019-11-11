@@ -10,6 +10,7 @@ class Shoe
     BRANDS << brands
     if BRANDS != brands.uniq
       BRANDS << brands
+     end
    end
 
   def cobble
