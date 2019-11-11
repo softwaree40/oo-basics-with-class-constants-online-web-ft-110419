@@ -10,9 +10,8 @@ class Shoe
     @brands = brands
     BRANDS << brands
     #pp BRANDS
-    BRANDS.each do |brand|
-      
-    binding.pry
+  
+    #binding.pry
        end
     end
 
@@ -20,5 +19,5 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  
+   return BRANDS.uniq 
 end
