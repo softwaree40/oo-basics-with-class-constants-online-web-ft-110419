@@ -1,4 +1,5 @@
 require 'pry'
+require 'pp'
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brands
@@ -8,7 +9,7 @@ class Shoe
   def initialize(brands)
     @brands = brands
     BRANDS << brands
-    
+    pp BRANDS
     binding.pry
     end
 
