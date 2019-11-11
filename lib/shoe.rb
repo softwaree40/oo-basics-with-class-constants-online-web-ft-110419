@@ -6,7 +6,7 @@ class Shoe
    
   def initialize(brands)
     @brands = brands
-    brands.each do |brand|
+   
       binding.pry
     end
   end
