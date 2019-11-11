@@ -7,8 +7,7 @@ class Shoe
   
    def initialize(brands)
     @brands = brands
-    BRANDS << brands
-     if !(BRANDS.include?(@brand))
+    if !(BRANDS.include?(@brand))
       BRANDS << @brand
       binding.pry
     end
