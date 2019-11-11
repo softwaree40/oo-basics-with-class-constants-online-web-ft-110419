@@ -4,9 +4,11 @@ class Shoe
   attr_reader :brands
     BRANDS = []
    
-  def initialize(brand)
-    @brands = brand
-    
+  def initialize(brands)
+    @brands = brands
+    brands.each do |brand|
+      binding.pry
+    end
   end
 
   def cobble
