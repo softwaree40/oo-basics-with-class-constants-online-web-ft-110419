@@ -9,8 +9,11 @@ class Shoe
   def initialize(brands)
     @brands = brands
     BRANDS << brands
-    pp BRANDS
+    #pp BRANDS
+    BRANDS.each do |brand|
+      
     binding.pry
+       end
     end
 
   def cobble
