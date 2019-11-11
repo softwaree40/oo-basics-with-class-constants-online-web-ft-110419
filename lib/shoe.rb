@@ -3,7 +3,7 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brands
     BRANDS = []
-    binding.pry
+    
    
   def initialize(brands)
     @brands = brands
@@ -18,5 +18,6 @@ class Shoe
   end
   brands.each do |brand|
       BRANDS << brand
+      binding.pry
     end
 end
