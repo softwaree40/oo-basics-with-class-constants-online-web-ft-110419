@@ -9,7 +9,7 @@ class Shoe
     @brands = brands
     BRANDS << brands
      if !(BRANDS.include?(@brand))
-      BRANDS << brands
+      BRANDS << @brand
       binding.pry
     end
    end
