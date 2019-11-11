@@ -8,11 +8,8 @@ class Shoe
    def initialize(brands)
     @brands = brands
     BRANDS << brands
-    unique_numbers = BRANDS.uniq
-    #pp BRANDS
-    unique_numbers
-    #binding.pr
- end
+  
+   end
 
   def cobble
     self.condition = "new"
