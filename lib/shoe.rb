@@ -3,10 +3,9 @@ require 'pp'
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brands
-    BRANDS = [].uniq
+    BRANDS = []
     
-   
-  def initialize(brands)
+   def initialize(brands)
     @brands = brands
     BRANDS << brands
     #pp BRANDS
@@ -18,5 +17,5 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-   BRANDS.uniq 
+   
 end
